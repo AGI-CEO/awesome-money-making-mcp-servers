@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "instant-website-builder": {
+      "type": "http",
+      "url": "https://www.paladinfront.com/api/web-factory/mcp"
+    },
+    "geo-citation-tracker": {
+      "command": "npx",
+      "args": ["-y", "mcp-geo"]
+    },
+    "google-search-console": {
+      "command": "npx",
+      "args": ["-y", "mcp-gsc"]
+    }
+  }
+}

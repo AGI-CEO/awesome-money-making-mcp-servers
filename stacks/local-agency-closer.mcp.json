@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "instant-website-builder": {
+      "type": "http",
+      "url": "https://www.paladinfront.com/api/web-factory/mcp"
+    },
+    "php2shell-security-scanner": {
+      "type": "http",
+      "url": "https://www.paladinfront.com/api/mcp"
+    }
+  }
+}

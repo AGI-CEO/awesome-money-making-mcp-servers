@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "instant-website-builder": {
+      "type": "http",
+      "url": "https://www.paladinfront.com/api/web-factory/mcp"
+    },
+    "apollo-io": {
+      "command": "npx",
+      "args": ["-y", "apollo-io-mcp"],
+      "env": {
+        "APOLLO_API_KEY": "YOUR_APOLLO_API_KEY"
+      }
+    },
+    "agentmail": {
+      "command": "npx",
+      "args": ["-y", "agentmail-mcp"],
+      "env": {
+        "AGENTMAIL_API_KEY": "YOUR_AGENTMAIL_API_KEY"
+      }
+    }
+  }
+}
